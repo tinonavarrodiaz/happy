@@ -13,7 +13,7 @@ body {
 }
 .peach {
 	background-color: #FFDAB9;
-	
+
 }
 .peach-after {
 	-webkit-animation:peach_alive linear 8s infinite;
@@ -133,6 +133,18 @@ body {
 	-o-animation: bulb_glow_yellow linear 5s;
 	-ms-animation: bulb_glow_yellow linear 5s;
 	animation: bulb_glow_yellow linear 5s;
+}
+.love{
+  display:none;
+  position: absolute;
+  bottom: -10rem;
+  font-family: 'Signika', sans-serif;
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #C4515C;
+	text-shadow: 2px 2px 2px #FFF;
+	display: none;
+	font-weight: bold;
 }
 
 @-webkit-keyframes bulb_glow_yellow {
